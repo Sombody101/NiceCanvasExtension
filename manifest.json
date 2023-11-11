@@ -7,6 +7,7 @@
     "content_scripts": [
         {
             "css": ["css/styles.css"],
+            "_comment": "Yoinked these paths from github.com/DeGrandis/canvas-dark-mode#readme",
             "matches": [
                 "https://*.instructure.com/*",
                 "https://canvas.vt.edu/*",
