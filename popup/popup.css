@@ -1,0 +1,65 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Code+Pro:wght@200&display=swap');
+/***/
+
+*,
+*::before,
+*::after {
+
+    /*
+    border: dotted red 1px;
+    */
+
+    color: #fff;
+}
+
+html,
+body {
+    margin: 0;
+    background-color: #1c1c1c;
+    padding: 10px;
+    font: 'Lato';
+    min-width: 300px;
+}
+
+section {
+    margin: 10px;
+    margin-right: 50px;
+}
+
+hr {
+    margin: 20px auto;
+}
+
+h3>hr {
+    margin-top: 5px;
+}
+
+.option-button {
+    font-size: 12px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background: rgb(68, 68, 68);
+    color: white;
+    border-radius: 4px;
+    transition: background .5s ease;
+}
+
+.option-button:hover {
+    background: rgb(75, 75, 75);
+    background: linear-gradient(90deg, rgb(98, 98, 98) 0%, rgb(116, 116, 116) 100%);
+}
+
+.option-button:active {
+    transform: translate(0em, 0.1em);
+}
+
+input {
+  margin: 0.4rem;
+  background-color: #4f4f4f;
+}
+
+label {
+    font: 14px 'Lato';
+}

@@ -1,0 +1,231 @@
+/*
+    ui.css is only for shape manipulation.
+    Theme/coloring is inside dark-canvas.css
+
+    This allows for the user to choose to have only dark mode, only ui, none, or both.
+*/
+
+* {
+    /* For debugging
+    border: red dotted 1px;
+    */
+}
+
+/* Settings menu (Top level) */
+.css-kryo2y-view-listItem {
+    padding: 1px !important;
+    margin: 0 !important;
+    border-radius: 10px;
+}
+
+/* 
+    Dashboard (Card view) 
+*/
+
+.ic-DashboardCard,
+/* Top bar notification (On page enter) */
+.css-1tp02dz-view-alert,
+.transition--fade-entered {
+    border-radius: 10px !important;
+}
+
+/* Make main nav buttons curved (Color optional) */
+#primaryNavToggle,
+.ic-app-header__menu-list-item--active,
+.ic-app-header__menu-list-link,
+#menu>* {
+    border-radius: 10px;
+    margin: 3px;
+}
+
+#primaryNavToggle {
+    width: 90%;
+    margin: 5% auto;
+}
+
+/* Dashboard view menu (Only seen with a dark theme) */
+.PlannerHeader-styles__root,
+.css-1uz7kmt-view--block-contextView__content,
+.css-a6zj6t-menu {
+    border-radius: 10px;
+    display: inline-block;
+    justify-content: space-around !important;
+}
+
+.css-hcyq0y-view--inlineBlock-baseButton,
+.css-7tutmp-view--inlineBlock-baseButton,
+.css-819ls3-view--inlineBlock-baseButton {
+    margin: 5px !important;
+    transition: all 0.2s ease 0s;
+}
+
+.css-f3koyy-view--inlineBlock-baseButton {
+    margin: 5px !important;
+}
+
+/* View selector button fix */
+#Menu__label_0 {
+    margin-left: 10px;
+}
+
+.css-1b8oav2-view--inlineBlock-badge__wrapper {
+    margin: 0 !important;
+}
+
+/* "Today" button fix */
+
+.css-1f6zcte-baseButton__content {
+    padding: 0 10px 0 10px !important;
+}
+
+/* 
+    Dashboard (List) 
+*/
+
+.Day-styles__root,
+.Day-styles__secondary,
+.planner-day {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Item date label realignment */
+.Day-styles__secondary,
+.css-1sp24u-text {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.css-1sp24u-text {
+    padding-bottom: 0;
+}
+
+/* "Nothing Planned Yet" note fix */
+.css-1lfaow5-view--block {
+    padding-bottom: 0.75rem;
+}
+
+/* Class assignment section (Dynamic reassignment needs !important) */
+.Grouping-styles__root {
+    padding-bottom: 10px;
+    margin-right: 5px;
+}
+
+.Grouping-styles__overlay,
+.Grouping-styles__withImage,
+.Grouping-styles__hero,
+.Grouping-styles__heroHover,
+.Grouping-styles__title {
+    border-radius: 10px !important;
+    margin: 2px;
+}
+
+.Grouping-styles__overlay {
+    margin: 0 !important;
+}
+
+.Grouping-styles__title {
+    padding: 6px 8px !important;
+}
+
+.CompletedItemsFacade-styles__root,
+.PlannerItem-styles__root {
+    border-radius: 10px;
+    margin: 3px 0;
+}
+
+/* 
+    Misc 
+*/
+
+/* Applies to "Recent Feedback" boxes */
+.event-details {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.css-1rpus1y-baseButton__content,
+.Button,
+.btn {
+    border-radius: 10px !important;
+}
+
+/* Hyperlink buttons */
+.css-1b48q7o-view-link,
+.css-6t42ud-view-link {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* Assignment collection (Modules) */
+.item-group-condensed {
+    border-radius: 10px;
+}
+
+/* Assignment description (class>assignment>[assignment]) */
+.assignment {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Assignment title */
+#assignment_show {
+    margin-top: 30px;
+}
+
+/* Comment box */
+.comments {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Assignment submission comments */
+.comment {
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Assignment navigation footer */
+.module-sequence-footer-content {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Assignment turn-in container */
+#submit_assignment {
+    margin-top: 30px;
+}
+
+/* Assignment turn-in tabs */
+.ui-tabs-nav {
+    border-radius: 10px 10px 0 0 !important;
+    padding: 10px !important;
+}
+
+/* Assignment turn-in top nav modifiers */
+.ui-tabs-anchor {
+    border-radius: 10px;
+    margin: 1px;
+}
+
+.ui-corner-top {
+    border-radius: 10px;
+    margin: 1px;
+    padding: 0;
+}
+
+/* Assignment turn-in form */
+.submit_assignment_form {
+    border-radius: 0 0 10px 10px !important;
+}
+
+.css-1f6zcte-baseButton__content {
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.css-qi8ml9-baseButton__childrenLayout {
+    padding: 3px 10px;
+}

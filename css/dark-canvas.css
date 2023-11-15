@@ -1,0 +1,517 @@
+/*
+
+Author: Rob DeGrandis (github.com/DeGrandis)
+GitHub: https://github.com/DeGrandis/canvas-dark-mode
+
+Modifications: https://github.com/Sombody101
+
+*/
+
+:root:root {
+    --ic-brand-primary: #282828;
+    --ic-link-color: #282828;
+    --ic-brand-global-nav-bgd: #282828;
+    --ic-brand-global-nav-logo-bgd: #282828;
+    --ic-brand-Login-body-bgd-color: #282828;
+    --ic-brand-Login-body-bgd-shadow-color: #282828;
+    --ic-brand-global-nav-menu-item__text-color: #C7CDD1;
+    --ic-brand-global-nav-menu-item__text-color--active: #fff;
+    --ic-brand-global-nav-ic-icon-svg-fill--active: #fff;
+    --ic-brand-font-color-dark-lightened-15: #C7CDD1;
+    --eHiXd-linkColor: #fff;
+
+    --white-text: #FFF;
+}
+
+.ic-DashboardCard,
+.ic-DashboardCard__header_content,
+.header,
+.ic-DashboardCard__action-container,
+.item-group-container,
+.ig-row,
+.header-bar-outer-container,
+.tray-with-space-for-global-nav,
+.fLzZc_caGd,
+.fc-body,
+.fc-content,
+.fc-event-container,
+.comm-channel,
+.grouping,
+th,
+.table,
+.planner-day,
+.nothingPlannedContainer_hppr,
+.comments,
+.roster-tab,
+.rosterUser,
+.syllabus_assignment,
+tbody,
+.day_date,
+.table,
+.table-striped,
+.ic-flash-error,
+span[role=dialog],
+span[role=dialog]>div,
+.agenda-wrapper,
+.agenda-day,
+.agenda-event__container,
+.event-details,
+.rubric_title,
+.content_box,
+.css-1kdtqv3-tray__content,
+.module-sequence-footer-content,
+/* Quiz */
+.PageHeader-styles__headerContent,
+.Page-styles__withHeader,
+.QuizHeader-styles__content {
+    background-color: #282828 !important;
+}
+
+/* Assignment navigation footer */
+.module-sequence-footer-content {
+    border: unset !important;
+}
+
+.react-rubric tr,
+.react-rubric th {
+    background-color: #282828;
+    color: #888;
+}
+
+.react-rubric td {
+    background-color: #282828;
+    color: #888;
+}
+
+body,
+.header-bar,
+.ui-tabs-anchor,
+.quiz-submission,
+.ig-header,
+.accessible-toggler,
+.ic-Input,
+.ic-DashboardCard__box__header {
+    background: #1f1f1f;
+    color: #C7CDD1;
+}
+
+.module-sequence-footer-content,
+.ic-app-crumbs,
+#breadcrumbs,
+.course-list-unpublished-course-row {
+    background: #1f1f1f;
+}
+
+.ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link {
+    background: #333;
+}
+
+.ic-Dashboard-header__layout,
+div.comment,
+.css-1tp02dz-view-alert,
+.transition--fade-entered {
+    background: #1f1f1f;
+    color: #fff;
+}
+
+.Button,
+.btn,
+.css-eavbef-baseButton__content,
+.css-qi8ml9-baseButton__childrenLayout,
+.css-1ul3du0-baseButton__content,
+.css-1y8unnl-baseButton__content {
+    background-color: #282828;
+    color: #C7CDD1;
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.css-b3o9wj-mask {
+    background: #3f3f3fbf;
+}
+
+.css-xfzpzp-toggleDetails__toggle,
+a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.status-description,
+.title,
+.locked_title,
+.points_possible_display,
+.ig-details__item,
+.name,
+h2,
+.comment,
+td,
+.score_value,
+.ic-Login__actions,
+.ic-Label {
+    color: #C7CDD1;
+}
+
+.ic-sidebar-logo {
+    visibility: hidden;
+}
+
+.Day-styles__root {
+    color: #fff;
+}
+
+.EmptyDays-styles__root {
+    background-color: #282828;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    border: unset;
+}
+
+.PlannerItem-styles__root {
+    color: #C7CDD1;
+}
+
+.fc-today {
+    background-color: #1f1f1f;
+}
+
+.ic-notification__content,
+table.summary td,
+#syllabus tr.date.date_passed td {
+    background: none;
+}
+
+#minical {
+    background-color: #1f1f1f;
+}
+
+.fc-widget-content,
+.agenda-day {
+    border: 1px solid #4d4d4d;
+}
+
+#context-list-holder {
+    background-color: #1f1f1f;
+}
+
+
+.course-list-table .course-list-table-row:hover,
+.ef-item-row:hover,
+tr:hover {
+    background-color: #4b4b4b;
+}
+
+.mini_calendar .day.today {
+    background-color: #4d4d4d;
+}
+
+.ic-Table.ic-Table--striped tbody tr:nth-child(odd) {
+    background-color: #1f1f1f;
+}
+
+.ic-Table {
+    color: white;
+}
+
+.navigation-tray-container button:active::before {
+    border-color: #4d4d4d
+}
+
+.question_points_holder {
+    color: none;
+}
+
+#questions.assessing,
+.question {
+    background: none;
+}
+
+.pinned-discussions-v2__wrapper,
+.unpinned-discussions-v2__wrapper,
+.ic-discussion-row,
+.message-list .messages>li {
+    background: #1f1f1f;
+    color: #C7CDD1;
+}
+
+.toolbarView .headerBar,
+.discussion-reply-box,
+.conversations .panel {
+    background: #4b4b4b;
+}
+
+.discussion_entry {
+    background: #1f1f1f;
+}
+
+.ic-RichContentEditor>div,
+.tox:not(.tox-tinymce-inline) .tox-editor-header,
+.tox .tox-toolbar,
+.tox .tox-toolbar__overflow,
+.tox .tox-toolbar__primary,
+.tox .tox-menubar,
+.tox .tox-menu {
+    background-color: #1a1a1a;
+    color: #C7CDD1;
+}
+
+.tox .tox-tbtn,
+.tox .tox-mbtn,
+.tox .tox-collection__item,
+.tox .tox-collection--list .tox-collection__item--active {
+    color: #C7CDD1;
+}
+
+.tox .tox-edit-area__iframe,
+.tox .tox-tbtn--active,
+.tox .tox-mbtn--active,
+.tox .tox-collection--list .tox-collection__item--enabled,
+.tox .tox-split-button .tox-tbtn.tox-split-button__chevron {
+    background-color: #7b7b7b;
+    color: white;
+}
+
+.tox .tox-tbtn:hover,
+.tox .tox-split-button:hover,
+.tox .tox-tbtn.tox-tbtn--enabled:hover,
+.tox .tox-split-button .tox-tbtn.tox-split-button__chevron:hover {
+    border-color: #7b7b7b;
+    background-color: #7b7b7b;
+    color: white;
+}
+
+.tox .tox-tbtn svg,
+.IconQuiz {
+    fill: #C7CDD1;
+}
+
+.message-list .date,
+.ToDoSidebarItem__Info>ul>li,
+.css-1sr6v3o-text,
+.css-xqopp9-text,
+/* Comment information */
+.signature {
+    color: #9c9c9c;
+}
+
+.menu-item__text {
+    color: #fff !important;
+}
+
+.navigation-tray-container,
+.css-1dsl5sr-view,
+.courses-tray {
+    background: #282828;
+}
+
+.css-1vfp3rz-text,
+#calendar-list-holder {
+    color: #fff;
+}
+
+
+.new-feature-pill {
+    color: #c7c7c7;
+    border-color: #b4b4b4;
+    background-color: #5a5a5a;
+}
+
+/* Right hand side assignment status (graded, feedback, etc) */
+.css-1il4345-pill,
+.css-f8aur1-pill {
+    color: #c7c7c7;
+    border-color: #b4b4b4;
+    background-color: #5a5a5a;
+}
+
+/* Missing assignment pill */
+.css-kz09kf-pill,
+.css-1rnosud-pill {
+    background-color: #5a5a5a;
+    color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0);
+}
+
+/* Dashboard view menu icons */
+.css-1uh2md0-inlineSVG-svgIcon,
+.css-f8fjsy-inlineSVG-svgIcon,
+.css-1xnn9jb-inlineSVG-svgIcon {
+    color: var(--white-text);
+}
+
+#calendar-list-holder {
+    background: #282828;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#other-calendars-list-holder {
+    background: #282828;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+}
+
+.context_list_context {
+    border-radius: 10px;
+    margin: 5px auto;
+}
+
+.context_list_context:hover {
+    background: #525252;
+}
+
+.fc-day-grid-event,
+.fc-h-event,
+.fc-event,
+.fc-start,
+.fc-end,
+.group_course_1679462,
+.assignment {
+    background: #363636;
+}
+
+.fc-day-header,
+.css-l3we3a-checkboxFacade__label,
+.css-m97t26-text {
+    color: #c7c7c7;
+}
+
+.css-14jozxf-view--inlineBlock {
+    background-color: #373737;
+}
+
+.css-19i4e00-textInput__layout,
+.css-9ca8iq-textInput,
+.css-18m4bch-textArea {
+    background-color: #5a5a5a;
+    color: #fff;
+}
+
+/* Make main nav buttons */
+#primaryNavToggle,
+.ic-app-header__menu-list-item--active,
+.ic-app-header__menu-list-link,
+#menu>* {
+    background-color: var(--menu-item-background-color);
+}
+
+/* Dashboard view menu  */
+.PlannerHeader-styles__root,
+.css-1uz7kmt-view--block-contextView__content,
+.css-a6zj6t-menu {
+    background: #343434;
+    color: #fff;
+    border-color: unset;
+}
+
+.css-f3koyy-view--inlineBlock-baseButton:hover .css-qi8ml9-baseButton__childrenLayout,
+.css-hcyq0y-view--inlineBlock-baseButton:hover .css-qi8ml9-baseButton__childrenLayout {
+    background: #4b4b4b;
+}
+
+/* "TODAY" button */
+.css-p3olqp-baseButton__content {
+    border-color: #dbdbdb4d;
+    background: #575757;
+    color: var(--white-text);
+}
+
+/* Make check mark brighter */
+.icon-check {
+    color: #00c867;
+}
+
+/* Small dot next to assignments (Notification) */
+.css-ipx6rw-view--inlineBlock-badge,
+.css-mu6wdj-view--inlineBlock-badge {
+    background-color: #00862b;
+}
+
+/* "New Activity" tag (top right) */
+.StickyButton-styles__root {
+    background-color: #fdfeff;
+    color: #000;
+}
+
+.css-10dz9lm-toggleDetails__summary {
+    color: var(--white-text);
+}
+
+/* Arrow next to "New Activity" */
+.StickyButton-styles__icon {
+    color: #000;
+}
+
+.css-1dndbkc-menu,
+.css-1j6dkk2-menuItemGroup,
+.css-ktk67h-menuItemGroup__label,
+.css-19w3yaf-menuItem {
+    background-color: #5a5a5a;
+    color: var(--white-text);
+}
+
+.css-oqi6mv-menuItem__label {
+    color: var(--white-text);
+}
+
+/* Hyperlink buttons */
+.css-1b48q7o-view-link {
+    color: var(--white-text);
+    background-color: rgb(54, 54, 54);
+}
+
+/* Icon */
+.ig-type-icon {
+    color: #fff;
+}
+
+.css-1329k7k-view--flex-flex,
+.css-w1drs0-view-flexItem,
+.css-m8032z-text,
+.css-1jjkti5-inlineSVG-svgIcon,
+.css-11s2n2m-inlineSVG-svgIcon {
+    background-color: #282828;
+    color: #fff;
+}
+
+/* "Today" button fix */
+.css-1f6zcte-baseButton__content {
+    background: #282828;
+    color: #fff;
+    border-color: transparent;
+}
+
+.css-7tutmp-view--inlineBlock-baseButton:hover>.css-1f6zcte-baseButton__content {
+    background: #4b4b4b;
+}
+
+/* Assignment turn-in tabs */
+.ui-tabs-nav {
+    background-color: #282828 !important;
+    border: solid #ba0505 0.8px !important;
+}
+
+.ui-corner-top {
+    background-color: #656565;
+}
+
+/* Assignment turn-in form */
+.submit_assignment_form {
+    background-color: #282828 !important;
+}
+
+.Grouping-styles__title::after {
+    background: unset;
+}
+
+.Grouping-styles__items {
+    border: unset !important;
+}
+
+.CompletedItemsFacade-styles__root,
+.PlannerItem-styles__root {
+    border: solid rgb(126, 126, 126) .8px;
+}

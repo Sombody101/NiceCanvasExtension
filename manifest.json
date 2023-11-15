@@ -1,13 +1,40 @@
 {
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+
+    "background": {
+        "service_worker": "background.js"
+    },
     "action": {
-        "default_icon": { },
-        "default_popup": "popup.html",
+        "default_popup": "/popup/popup.html",
+        "default_icon": {},
         "default_title": "Fancy Canvas"
     },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "/css/dark-canvas.css", 
+                "/css/ui.css",
+                "/icons/canvas.svg",
+                "/popup/popup.html",
+                "/popup/popup.css"
+            ],
+            "matches": ["*://*/*"]
+        }
+    ],
+    "description": "Make the Canvas UI look nicer.",
+    "manifest_version": 3,
+    "name": "Fancy Canvas",
+    "version": "0.0.1",
     "content_scripts": [
         {
-            "css": ["css/styles.css"],
-            "_comment": "Yoinked these paths from github.com/DeGrandis/canvas-dark-mode#readme",
+            "_comment": "Yoinked the paths from github.com/DeGrandis/canvas-dark-mode#readme",
+            "js": ["/content.js"],
+            "run_at": "document_start",
             "matches": [
                 "https://*.instructure.com/*",
                 "https://canvas.vt.edu/*",
@@ -207,11 +234,5 @@
                 "https://courses.ecu.edu.au/*"
             ]
         }
-    ],
-    "default_locale": "en",
-    "description": "Make the Canvas UI look nicer.",
-    "icons": { },
-    "manifest_version": 3,
-    "name": "Canvas Fancy Mode",
-    "version": "1.1.6"
+    ]
 }
